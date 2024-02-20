@@ -37,7 +37,7 @@ export default {
         },
         login(){
             //this.$router.push('/permission-management-center/permissions');
-            const url = "http://localhost:8083/login";
+            const url = "http://120.55.72.129:8083/login";
         this.axios
         .get(url, {
             params: {
